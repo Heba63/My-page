@@ -1,0 +1,47 @@
+<!DOCTYPE html>  
+<html>  
+<head>  
+    <title>My First Web Page</title>  
+    <style>  
+        body {  
+            background: linear-gradient(to right, #f8d7f9, #ffb6c1);  /* تدرج الألوان من الزهري الفاتح للورد الفاتح */
+            text-align: center;  
+            margin: 0;  
+            height: 100vh;  /* جعل ارتفاع الصفحة كامل */
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }  
+        h1 {  
+            color: #ffffff;  /* لون النص أبيض */
+            background: rgba(255, 255, 255, 0.5);  /* خلفية شبه شفافة */
+            padding: 20px 40px;  
+            border-radius: 20px;  /* حواف مدورة */
+            font-size: 36px;
+            font-weight: bold;
+            animation: moveText 2s infinite alternate;  /* إضافة حركة النص */
+        }  
+        @keyframes moveText {
+            0% {
+                transform: translateY(0);
+            }
+            50% {
+                transform: translateY(-20px);
+            }
+            100% {
+                transform: translateY(0);
+            }
+        }
+        p {
+            font-size: 20px;
+            color: #ff1493;  /* لون وردي قوي */
+        }
+    </style>  
+</head>  
+<body>  
+    <h1>هبه ايهاب احمد</h1>  
+    <p>الكود: 20231324</p>  
+    <p>جروب: هه</p>  
+</body>  
+</html>
